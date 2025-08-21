@@ -1,0 +1,12 @@
+# arekbox_doc_channels.sh - Kanały z prawdziwymi dokumentami
+echo -e "${CYAN}📺 KANAŁY DOKUMENTALNE (zero patologii):${NC}"
+echo ""
+echo "🎬 **Kanały YouTube (dobre treści):**"
+echo "  - Journeyman Pictures (youtube.com/@JourneymanPictures)"
+echo "  - VICE (youtube.com/@VICE)"
+echo "  - Frontline PBS (youtube.com/@FrontlinePBS)"
+echo "  - DW Documentary (youtube.com/@dwdocumentary)"
+echo ""
+echo "🌐 **Platformy bez algorytmów:**"
+echo "  - Odysee.com (np. @TytułKanału)"
+echo "  - PeerTube (np. @KanałDokumentalny)"

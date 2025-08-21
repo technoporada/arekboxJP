@@ -1,0 +1,14 @@
+# arekbox_vpn.sh - Zarządzaj połączeniami VPN
+setup_vpn() {
+    echo "Konfiguruję VPN (dla prywatności, nie omijanie blokad)..."
+    # Legalne dostawcy VPN
+    sudo apt install openvpn
+    sudo systemctl start openvpn
+}
+# arekbox_adblock.sh - Blokuj reklamy legalnie
+setup_adblock() {
+    echo "Konfiguruję blokowanie reklam..."
+    # Użyj legalnych narzędzi
+    sudo apt install adblock
+    echo "127.0.0.1 doubleclick.net" | sudo tee -a /etc/hosts
+}

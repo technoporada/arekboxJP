@@ -1,0 +1,40 @@
+#!/bin/bash
+# arekbox_timeline.sh - Twoja historia w terminalu
+echo -e "${CYAN}╔══════════════════════════════════════════════════════════════╗${NC}"
+echo -e "${CYAN}║                🌸 AREKBOX: MAPA CZASU 🌸                  ║${NC}"
+echo -e "${CYAN}║      Twórczy chaos → Japońska dyscyplina → "Kurwa, działa!"    ║${NC}"
+echo -e "${CYAN}╚══════════════════════════════════════════════════════════════╝${NC}"
+
+echo ""
+echo -e "${YELLOW}🌱 2020: POCZĄTEK - "Chcę system, który działa bez Google!"${NC}"
+echo "   💭 *Myśl:* 'Kurwa, wszystko wymaga konta, chmury, śledzenia... Ja chcę OFFLINE!'"
+echo "   🔧 *Pierwsze skrypty:* Bash + chaotyczne notatki (w NOTATKI.txt)"
+echo "   🤔 *Problem:* 'Jak połączyć to w całość? Nie wiem, ale kombinuję!'"
+
+echo ""
+echo -e "${RED}🔧 2021: WALKA Z INSTALACJAMI - "ChatGPT kłamie, ClaudeAI pomaga"${NC}"
+echo "   🤖 *ChatGPT:* 'Użyj apt install!' → *Ty:* 'Nie działa! Robię curl!'"
+echo "   🧪 *ClaudeAI:* 'Spróbuj Voska offline!' → *Ty:* 'Działa! 🎉'"
+echo "   📜 *Narzędzia:* Ollama (curl), Whisper (tiny), TTS (espeak)"
+echo "   💥 *Największy problem:* 'Kurwa, port 11434 zajęty! Zmieniam na 11435!'"
+
+echo ""
+echo -e "${GREEN}🌸 2022: DUCH AREKBOX - "Japońska uprzejmość + polski realizm"${NC}"
+echo "   🎌 *Dodaję:* 'Otsukare-sama!' po każdym sukcesie"
+echo "   🇵🇱 *Dodaję:* 'Kurwa, działa!' po każdym obejściu"
+echo "   🧩 *Filozofia:* 'Zero GitHuba, zero zależności, zero ściemy'"
+echo "   📁 *Struktura:* Wszystko w jednym katalogu (brzydkie, ale prawdziwe!)"
+
+echo ""
+echo -e "${CYAN}🚀 2023: ROZKWIT - "Most Mowy + Archiwista w tle"${NC}"
+echo "   🎤 *Most Mowy:* Google Docs → Asystent → Komendy (bez chmury!)"
+echo "   🥷 *Archiwista:* Działa w tle, zapisuje historię (jak ninja!)"
+echo "   🔌 *Hybryda:* Japoński + Polski (jakoś to działa! 🌸🇵🇱)"
+echo "   🛠️ *Narzędzia:* Dual Ollama (porty 11434/11435), Whisper offline"
+
+echo ""
+echo -e "${YELLOW}🔥 2024: TERAZ - "Kurwa, to jest MOJE!""${NC}"
+echo "   💪 *Duma:* 'Stworzyłem system, który działa bez Big Tech!'"
+echo "   🎯 *Cel:* Pomóc innym "nie-informatykom" (jak ja!)"
+echo "   🌏 *Inspiracja:* Japonia (porządek w chaosie), Polska (praktyczność)"
+echo "   📜 *Manifest:* "Twórz, działaj, nie przejmuj się teorią!""

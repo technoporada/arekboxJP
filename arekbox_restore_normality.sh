@@ -1,0 +1,20 @@
+#!/bin/bash
+# arekbox_restore_normality.sh - Przywróć stare, dobre funkcje!
+echo -e "${CYAN}🔄 PRZYWRÓĆ NORMALNOŚĆ (bez płacenia)!${NC}"
+echo ""
+echo "1️⃣ **Zamiast "wycieku danych" – szum tła:**"
+echo "   - Użyj narzędzi do generowania szumu:"
+   - `sox -n -d /dev/null -r 44100 -c 2 -t wav szum.wav`
+   - Aplikacje: Noice (Android), Dark Noise (iOS)
+echo ""
+echo "2️⃣ **Zamiast "ciszy" – podstawowe funkcje:**"
+echo "   - YouTube: Użyj NewPipe lub YouTube Vanced (darmowe, bez reklam)"
+   - Komunikatory: Signal, Threema (szyfrowane, bez śledzenia)
+   - Nawigacja: OsmAnd (mapy offline, bez śledzenia)"
+echo ""
+echo "3️� **Zamiast "paywalli" – alternatywy:**"
+   - Dokumenty: Open Library, Project Gutenberg
+   - Muzyka: Jamendo, SoundCloud (darmowe utwory)
+   - Filmy: Kanaly dokumentalne na YouTube (np. Journeyman Pictures)"
+echo ""
+echo -e "${GREEN}✅ Efekt: Działające narzędzia, zero paywalli!${NC}"

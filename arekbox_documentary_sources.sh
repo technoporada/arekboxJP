@@ -1,0 +1,27 @@
+#!/bin/bash
+# arekbox_documentary_sources.sh - Legalne źródła filmów dokumentalnych!
+# Zero reklam, zero influencerów, zero patologii!
+
+echo -e "${CYAN}📚 LEGALNE ŹRÓDŁA DOKUMENTALNE (zero problemów z prawami!)${NC}"
+echo ""
+echo "1) 🏛️  **Europejskie archiwa publiczne**"
+echo "   - European Film Gateway (filmgateway.eu)"
+echo "   - EUscreen (euscreen.eu)"
+echo "   - INA (ina.fr) - Francuskie archiwa"
+echo ""
+echo "2) 🎓 **Edukacyjne platformy**"
+echo "   - Khan Academy (khanacademy.org)"
+echo "   - MIT OpenCourseWare (ocw.mit.edu)"
+echo "   - Coursera (darmowe kursy z dokumentami)"
+echo ""
+echo "3) 🌍 **Projekty non-profit**"
+echo "   - Internet Archive (archive.org) - Public Domain Films"
+echo "   - Open Culture (openculture.com)"
+echo "   - Documentary Heaven (documentaryheaven.com)"
+echo ""
+echo "4) 📺 **Kanały dokumentalne na YouTube (legalne)**"
+echo "   - National Geographic (youtube.com/@natgeo)"
+echo "   - BBC Documentary (youtube.com/@BBC)"
+echo "   - Al Jazeera Documentary (youtube.com/@AlJazeera)"
+echo ""
+echo -e "${GREEN}✅ Wszystko legalne, darmowe, zero problemów z prawami!${NC}"
