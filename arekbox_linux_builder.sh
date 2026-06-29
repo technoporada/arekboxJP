@@ -76,9 +76,11 @@ configure_system() {
     echo "arekbox" > /etc/hostname
     echo "127.0.0.1 localhost arekbox" > /etc/hosts
     
-    # Użytkownik
+    # Użytkownik (hasło generowane losowo, logowane w /root/passwd_arek.txt)
     useradd -m -s /bin/bash arek
-    echo "arek:arekbox" | chpasswd
+    ARK_PASS=$(tr -dc 'a-zA-Z0-9' < /dev/urandom | head -c16)
+    echo "arek:$ARK_PASS" | chpasswd
+    echo "Hasło użytkownika arek: $ARK_PASS" > /root/password_arek.txt
     usermod -aG sudo arek
     
     # Aktualizuj system
