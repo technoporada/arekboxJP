@@ -13,7 +13,7 @@ INTRO_PACKS_DIR="$MEDIA_DIR/intro_packs"
 GREEN='\033[0;32m'
 RED='\033[0;31m'
 CYAN='\033[0;36m'
-YELLOW='\1[33m'
+YELLOW='\033[33m'
 PURPLE='\033[0;35m'
 NC='\033[0m'
 
@@ -86,7 +86,7 @@ EOF
 
 # Funkcja: Symulacja rotacji intro
 simulate_intro_rotation() {
-    echo -e "${PURPLE🔄 Symuluję rotację intro...${NC}"
+    echo -e "${PURPLE}🔄 Symuluję rotację intro...${NC}"
     
     local intro_pack="$INTRO_PACKS/netflix/intro_pack_$((RANDOM % 3 + 1)).txt"
     local intro_count=$(jq '.audio_experience.intro_count // 1' "$STATS_FILE" 2>/dev/null || echo 0)
@@ -106,7 +106,7 @@ simulate_intro_rotation() {
 
 # Funkcja: Symulacja odświeżania biblioteki
 simulate_library_refresh() {
-    echo -e "${PURPLE🔄 Symuluję odświeżanie biblioteki...${NC}"
+    echo -e "${PURPLE}🔄 Symuluję odświeżanie biblioteki...${NC}"
     
     local last_refresh=$(jq '.last_refresh' "$STATS_FILE" 2>/dev/null || echo "2024-01-01")
     local current_date=$(date +%Y-%m-%d)
@@ -135,7 +135,7 @@ simulate_library_refresh() {
 
 # Funkcja: Wykrywanie zmęczenia użytkownika
 detect_user_fatigue() {
-    echo -e "${PURPLE🧠 Wykrywam zmęczenie użytkownika...${NC}"
+    echo -e "${PURPLE}🧠 Wykrywam zmęczenie użytkownika...${NC}"
     
     local session_time=$(jq '.session_time_minutes // 1' "$STATS_FILE" 2>/dev/null || echo 0)
     local intro_repeats=$(jq '.audio_experience.intro_count // 1' "$STATS_FILE" 2>/dev/null || echo 0)
@@ -159,7 +159,7 @@ detect_user_fatigue() {
 
 # Funkcja: Generuj raport doświadczenia
 generate_experience_report() {
-    echo -e "${PURPLE📊 Generuję raport doświadczenia oglądania...${NC}"
+    echo -e "${PURPLE}📊 Generuję raport doświadczenia oglądania...${NC}"
     
     echo -e "${CYAN}=== RAPORT DOŚWIADCZENIA MEDIA ===${NC}"
     echo -e "${YELLOW}📈 Statystyki oglądania:${NC}"
@@ -183,27 +183,27 @@ generate_experience_report() {
 
 # Funkcja: Pokaż, jak powinno działać idealne media center
 show_ideal_experience() {
-    echo -e "${PURPLE🎬 Jak powinno działać IDEALNE media center:${NC}"
+    echo -e "${PURPLE}🎬 Jak powinno działać IDEALNE media center:${NC}"
     echo ""
     echo -e "${GREEN}✅ Rotacja intro (dźwiękowej i wizualnej):${NC}"
     echo "  - 3-5 różnych wersji intro na serial"
-    "  - Automatyczna zmiana przy każdym odcinku"
-    "  - Możliwość wyboru ulubionej wersji"
+    echo "  - Automatyczna zmiana przy każdym odcinku"
+    echo "  - Możliwość wyboru ulubionej wersji"
     
     echo -e "${GREEN}✅ Inteligentne odświeżanie:${NC}"
     echo "  - Co 6 miesięcy: nowe pakiety audio/video"
-    "  - Automatyczne pobieranie w tle"
-    "  - Zachowuje ulubione ustawienia użytkownika"
+    echo "  - Automatyczne pobieranie w tle"
+    echo "  - Zachowuje ulubione ustawienia użytkownika"
     
     echo -e "${GREEN}✅ Ochrona przed zmęczeniem:${NC}"
     echo "  - Wykrywanie długich sesji"
-    "  - Automatyczne wyciszanie po 2h"
-    "  - Sugestie przerw"
+    echo "  - Automatyczne wyciszanie po 2h"
+    echo "  - Sugestie przerw"
     
     echo -e "${GREEN}✅ Personalizacja:${NC}"
     echo "  - Własne pakiety intro (możliwość dodania)"
-    "  - Różne profile (dzieci, dorośli, nocny)"
-    "  - Dostosowanie do urządzenia (TV, telefon, tablet)"
+    echo "  - Różne profile (dzieci, dorośli, nocny)"
+    echo "  - Dostosowanie do urządzenia (TV, telefon, tablet)"
 }
 
 # Główne menu

@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Quizy/logi
+*.log
+*.tmp
+
+# System / media (duże)
+venvs/
+*.iso
+*.sfs
+*.squashfs
+
+# Konfiguracja lokalna
+.env
+*.local
+
+# Backup
+backups/

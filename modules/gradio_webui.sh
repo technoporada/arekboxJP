@@ -45,5 +45,8 @@ PYGR
 }
 
 run_custom_gradio() {
-  # Dodaj tutaj własne interfejsy Gradio
+  echo "=== WŁASNE INTERFEJSY GRADIO ==="
+  echo "Tu możesz dodać własne interfejsy Gradio."
+  echo "Przykład: wywołaj swój skrypt npx/python i otwórz w przeglądarce."
+  read -r -p "Naciśnij Enter, aby wrócić..."
 }
