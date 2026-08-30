@@ -33,10 +33,13 @@ chmod +x *.sh
 
 Większość skryptów to menu z wyborem — po prostu uruchom i wybierz opcję.
 
-## ⚠️ Status projektu
+## ⚠️ Status projektu — PRZECZYTAJ
 
-- To są **notatki z podróży po programowaniu** — nie wszystko jest skończone/idealne.
-- Część skryptów to szybkie prototypy i eksperymenty (w tym AI-assisted, z halucynacjami które naprawiałem).
+> ⚠️ **To NIE jest dopracowany, gotowy do produkcji produkt.** To **notatki z podróży po programowaniu**
+> i zbiór prototypów/eksperymentów (częściowo pisanych z pomocą AI, z halucynacjami które naprawiałem).
+> Składnia skryptów została sprawdzona (bash -n), ale **nie wszystkie zostały przetestowane w praktyce**.
+> Traktuj to jako archiwum pomysłów i naukę — nie jako gotowe narzędzia. Używasz na własną odpowiedzialność.
+
 - Wymagania: Linux (skrypty bash), niektóre moduły potrzebują `ollama`, `ffmpeg`, `espeak`, `python3`.
 
 ## 📜 Filozofia
