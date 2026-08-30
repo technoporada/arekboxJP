@@ -44,6 +44,12 @@ Większość skryptów to menu z wyborem — po prostu uruchom i wybierz opcję.
 Zamiast "czystego kodu" — zapisana mądrość i doświadczenia z testów, błędów i odkryć.
 W komentarzach znajdziesz lekcje, które wyniosłem z 400+ godzin pracy.
 
+## 🕰️ O datach (uczciwie)
+
+Moje prawdziwe "rozbieranie systemów" zaczęło się na **IRC-u w ~1998 r.** — miksowałem skrypty mIRC
+z różnych źródeł w jeden własny. Daty podawane w kodzie potrafią się różnić, bo część kodu
+generowało AI z **przesuniętym zegarem** (rok wstecz) — potraktuj je z przymrużeniem oka. 😉
+
 ---
 
 Created by **Arek** z pomocą AI. Japońska edycja ArekBox — dla miłośników minimalizmu. 🌸
